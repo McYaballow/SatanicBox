@@ -1,13 +1,6 @@
 #include <SDL2/SDL.h>
 #include <stdio.h>
-
-#define TRUE 1
-#define FALSE 0
-#define FPS 125
-#define FRAMEDUR (1.0 / FPS)
-#define HEIGTH 1080
-#define WIDTH 1920
-#define ACC 5000
+#include "globals.h"
 
 typedef struct Axis
 {
