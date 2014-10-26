@@ -176,13 +176,10 @@ int main(int argc, char *args[])
 						break;
 				}
 			}
-
 		}
-
 		drawBox(&boxi, renderoija);
 		advanceFrame(&boxi);
 	}
-
 	SDL_DestroyRenderer(renderoija);
 	SDL_DestroyWindow(ikkuna);
 	SDL_Quit();
