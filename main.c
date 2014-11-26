@@ -1,6 +1,6 @@
 #include <SDL2/SDL.h>
-#include <stdio.h>
 #include "globals.h"
+#include "drawTable.h"
 
 typedef struct Axis
 {
